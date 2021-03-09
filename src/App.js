@@ -12,7 +12,7 @@ const App = () => {
 
   useEffect(() => {
     getRecipes();
-  }, [query]);
+  }, []);
 
   const getRecipes = async () => {
     const response = await fetch(
